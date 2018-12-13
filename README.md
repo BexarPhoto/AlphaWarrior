@@ -1,2 +1,2 @@
-# AlphaWarrior
+# Alpha-Warrior
 Alpha Warrior Website
