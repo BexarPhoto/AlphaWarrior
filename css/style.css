@@ -48,6 +48,19 @@
     line-height: .8;
 
 }
+.title h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+.centered h1 {
+    font-family: oswald, sans-serif;
+    letter-spacing: .2rem;
+    font-weight: 900;
+ 
+  
+
+
+}
 
 .title h1 {
     font-weight: 900;
@@ -56,8 +69,10 @@
 }
 
 .jumbotron h3 {
-    font-size: 1.2rem;
+    margin-top: 7px;
+    font-size: 1.3rem;
     font-weight: 700;
+    font-family: oswald,sans-serif;
 }
 
 #register {
@@ -82,6 +97,7 @@
 .bodyText p {
     font-size: .9rem;
     margin-bottom: 4px;
+    font-family: lato, sans-serif;
 }
 
 .eventBtn {
@@ -315,11 +331,14 @@ h5 {
     transition-property: color, background-color;
     font-weight: 900;
     color: white;
-    font-size: 12px;
+    font-size: 1rem;
+    font-family: lato, sans-serif;
+    letter-spacing: 1px;
     padding: 15px 30px;
     background-color: var(--secondary-aw);
     border-radius: 0%;
     border: none;
+  
 }
 
 .hvr-fade:hover,
@@ -351,6 +370,8 @@ h5 {
     color: white;
     font-size: 1rem;
     padding: 15px 30px;
+        font-family: lato, sans-serif;
+    letter-spacing: 1px;
     background-color: var(--main-aw-blue);
     border-radius: 0%;
     border: none;
@@ -504,3 +525,124 @@ h5 {
     box-shadow: 1px 1px 15px #e3e3e3;
     border: none;
 }
+
+.navbar-nav {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .04rem;
+}
+
+.title h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -2px;
+}
+
+
+.center-text {
+  position: relative;
+  text-align: center;
+}
+
+.center-text-body {
+position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+color: white;
+}
+.center-text-body h2 {
+  font-size: calc(10px + (26 - 14) * ((110vw - 300px) / (1600 - 300)));
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.grow {
+ transition: all .1s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
+}
+
+.grow2 { transition: all .2s ease-in-out; }
+.grow2:hover { transform: scale(1.01); }
+
+
+
+
+
+
+
+
+
+
+
+/* Wobble Horizontal */
+@-webkit-keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.hvr-wobble-horizontal {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
+  -webkit-animation-name: hvr-wobble-horizontal;
+  animation-name: hvr-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
