@@ -7,20 +7,25 @@
 #tiptop {
     background-color: #1a1c28;
 }
+
 #mainNav {
     background-color: var(--secondary-aw);
 }
+
 .navbar-dark .navbar-nav .active > .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.06);
     border-radius: 2px;
 }
+
 .activePage {
     color: red;
 }
+
 #mainLogo {
     width: 140px;
     margin-top: -20px;
 }
+
 .register {
     color: white;
     background-color: var(--main-aw-blue);
@@ -28,11 +33,13 @@
     font-weight: 900;
     font-size: 12px;
 }
+
 #navbarText {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
 }
+
 .jumbotron h1 {
     color: var(--main-aw-blue);
     font-weight: 900;
@@ -41,18 +48,22 @@
     line-height: .8;
 
 }
+
 .title h1 {
     font-weight: 900;
     font-size: 3rem;
     color: rgb(5, 15, 26);
 }
+
 .jumbotron h3 {
     font-size: 1.2rem;
     font-weight: 700;
 }
+
 #register {
     color: #19ace2;
 }
+
 #regBtn {
     font-weight: 900;
     color: white;
@@ -67,10 +78,12 @@
     margin-top: 15px;
 
 }
+
 .bodyText p {
     font-size: .9rem;
     margin-bottom: 4px;
 }
+
 .eventBtn {
     font-weight: 900;
     color: white;
@@ -86,54 +99,61 @@
 .carousel-control-next {
     bottom: 91%;
 }
+
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
+
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+
 /* End BootStrap Carousel Control Change */
 
 .videoFooter a {
     color: var(--main-aw-blue);
     font-weight: bold;
 }
+
 #alphaPros {
     background: linear-gradient(#060e10, #0e222d);
 }
+
 #alphaPros .bennie {
-    margin-bottom: -26px;
+    margin-bottom: -24px;
 
 }
+
 #alphaPros h1 {
     color: white;
     padding-top: 50px;
     line-height: 2.7rem;
 }
+
 #alphaPros h2 {
     margin-top: -3px;
     color: var(--main-aw-blue);
     font-size: 1.2rem;
     line-height: 1.2rem;
 }
+
 #alphaPros p {
     margin-top: 55px;
     color: #fff;
     font-size: 1rem;
     padding-bottom: 15px;
 }
-#alphaPros .bennie {
-    height: 100%;
-    width: 100%;
-}
+
 #alphaPros hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
+
 #twitter {
     background-color: var(--secondary-aw);
 }
+
 #twitter .fa-twitter {
     margin-top: 70px;
     font-size: 1.2rem;
@@ -142,12 +162,15 @@
     padding: 20px;
     border-radius: 50%;
 }
+
 #tiptop .fa-twitter {
     color: #fff;
 }
+
 #tiptop .fa-twitter:hover {
     color: #1da1f2;
 }
+
 .twitterBody p {
     color: white;
     font-size: 1.2rem;
@@ -155,18 +178,22 @@
     font-weight: 100;
 
 }
+
 .twitterBody p:nth-of-type(1) {
     margin-top: 30px;
 }
+
 #contactUs p span {
     color: #2cc1fb;
     font-weight: 700;
 }
+
 .twitterBody p small {
     margin-top: 50px;
     color: #fff;
     font-weight: 700;
 }
+
 #twitter h4 {
     color: #c1c1c1;
     font-weight: 300;
@@ -174,17 +201,20 @@
     margin-top: 4%;
 
 }
+
 .borderBreak {
     border-bottom: 1px solid #fff;
     width: 35px;
     margin: 0 auto;
 }
+
 .twitterBody p:nth-of-type(3) {
     color: #fff;
     font-size: .8rem;
     margin-top: 10px;
     margin-bottom: 50px;
 }
+
 #submitBtn {
     font-weight: 900;
     color: white;
@@ -196,11 +226,12 @@
 }
 
 #contactUs {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(255, 255, 255)), url(/img/ContactBG.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(255, 255, 255)), url(../img/ContactBG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 .blueBoy {
     color: var(--main-aw-blue);
     font-weight: 700;
@@ -213,49 +244,61 @@
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+
 .transparent:hover {
     opacity: 1;
     -webkit-filter: grayscale(0%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
+
 /*EndSponsors Effect*/
 
 #quote {
     background-color: var(--main-aw-blue);
     padding: 35px 0px;
 }
+
 #quote h3 {
     color: #fff;
     font-size: 1.3rem;
     font-weight: 300;
 }
+
 #quote span {
     margin: 0 40px;
 }
+
 h5 {
     font-size: .9rem;
     font-weight: 900;
     letter-spacing: 3px;
 }
+
 #footerOne {
     background-color: #262933;
 }
+
 #footerOne a {
     color: #fff;
 }
+
 .text-footer {
     color: var(--secondary-aw);
 }
+
 .fa-facebook-f {
     color: white;
 }
+
 .fa-facebook-f:hover {
     color: #3b5998;
 }
+
 .fa-youtube {
     color: white;
 }
+
 .fa-youtube:hover {
     color: #cd201f;
 }
@@ -276,19 +319,21 @@ h5 {
     padding: 15px 30px;
     background-color: var(--secondary-aw);
     border-radius: 0%;
-    border:none;
+    border: none;
 }
+
 .hvr-fade:hover,
 .hvr-fade:focus,
 .hvr-fade:active {
     background-color: var(--main-aw-blue);
     color: white;
 }
+
 /*End Register Now Button*/
 
 #botFooter {
     padding: 12px 0px;
-    background-color: #e3e3e3;
+    background-color: #ffffff;
     color: #4b4b4b;
     font-size: .8rem;
 }
@@ -305,11 +350,13 @@ h5 {
     font-weight: 900;
     color: white;
     font-size: 1rem;
-padding: 15px 30px;    background-color: var(--main-aw-blue);
+    padding: 15px 30px;
+    background-color: var(--main-aw-blue);
     border-radius: 0%;
-    border:none;
+    border: none;
     letter-spacing: .05rem;
 }
+
 .hvr-fade-event:hover,
 .hvr-fade-event:focus,
 .hvr-fade:active {
@@ -320,11 +367,12 @@ padding: 15px 30px;    background-color: var(--main-aw-blue);
 }
 
 .centered {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 .centered h1 {
     color: white;
     line-height: 2.3rem;
@@ -332,88 +380,127 @@ padding: 15px 30px;    background-color: var(--main-aw-blue);
     font-weight: 700;
     min-width: 300px;
 }
+
 .centered h2 {
     color: white;
     font-size: 1rem;
 }
+
 @media only screen and (min-width: 320px) and (max-width: 980px) {
     .jumbotron {
-        background-image: url(/img/header.jpg);
+        background-image: url(../img/header.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
         min-height: 400px;
         max-height: 500px;
     }
+
     .jumbotron h1 {
-        font-size: 3.4rem;
+        margin-top: -20px;
+        font-size: 3.2rem;
+        width: 400px;
     }
+
     .jumbotron h3 {
         font-size: .76rem;
         margin-top: 2px;
         width: 190px;
     }
+
     #alphaPros h1 {
         text-align: center;
     }
+
     #alphaPros h2 {
         text-align: center;
     }
+
     #alphaPros p {
         text-align: center;
     }
+
     .jumbotron h3 {
         max-width: 289px;
     }
+
+
 }
+
 @media only screen and (min-width: 980px) and (max-width: 1200px) {
     .jumbotron {
-        background-image: url(/img/header.jpg);
+        background-image: url(../img/header.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: bottom;
         min-height: 555px;
         max-height: 500px;
     }
-#twitter {
-    background-color: var(--secondary-aw);
-    border-right: 80px solid var(--main-aw-blue);
-    border-left: 80px solid var(--secondary-aw);
 
+    #twitter {
+        background-color: var(--secondary-aw);
+        border-right: 80px solid var(--main-aw-blue);
+        border-left: 80px solid var(--secondary-aw);
+
+    }
+
+    .jumbotron h1 {
+        margin-top: -20px;
+        font-size: 5rem;
+        width: 600px;
+    }
+
+    #alphaPros .bennie {
+        padding-top: 0px;
+        
+    }
 }
-}
+
 @media only screen and (min-width: 1200px) {
 
     .jumbotron {
-        background-image: url(/img/header.jpg);
+        background-image: url(../img/header.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         min-height: 550px;
         max-height: 500px;
     }
-#twitter {
-    background-color: var(--secondary-aw);
-    border-right: 80px solid #21c2f8;
-    border-left: 80px solid var(--secondary-aw);
 
+    #twitter {
+        background-color: var(--secondary-aw);
+        border-right: 80px solid #21c2f8;
+        border-left: 80px solid var(--secondary-aw);
+
+    }
+
+    .jumbotron h1 {
+        margin-top: -20px;
+        font-size: 6rem;
+        width: 700px;
+    }
 }
-}
+
 .container-text {
-  position: relative;
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
+
 .bt-right {
-  position: absolute;
-  bottom: 8px;
-  right: 10px;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
 }
+
 #eventTypes {
     background-color: #f5f5f5;
 }
+
 .move {
     margin-top: -4px;
 }
+
 .box-shadow:hover {
     box-shadow: 1px 1px 15px #e3e3e3;
+    border: none;
 }
